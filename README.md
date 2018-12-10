@@ -1,4 +1,4 @@
-# menu-app
+# Restaurant Site
 
 > Basic menu app template
 
