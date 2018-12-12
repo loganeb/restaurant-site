@@ -2,8 +2,8 @@
     <div class="res-menu-item container">
         <div class="subtitle item-title">{{ title }}</div>
         <p>{{ description }}</p>
-        <div class="price">$ {{ price }}</div>
-        <img :alt="title" :src="image"/>
+        <div class="price">$ {{ price.toFixed(2) }}</div>
+        <img :alt="title" :src="image" class="item-image"/>
     </div>
 </template>
 
@@ -17,4 +17,13 @@ export default {
     }
 }
 </script>
+
+<style>
+.item-image{
+    width: 300px;
+    max-width: 100%;
+}
+
+</style>
+
 
