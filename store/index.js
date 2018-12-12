@@ -38,6 +38,43 @@ const state = () => ({
         }
     },
     selection: {},
+    hours:[
+        {
+            day: 'Sunday',
+            open: 11,
+            close: 23
+        },
+        {
+            day: 'Monday',
+            open: 13,
+            close: 22
+        },
+        {
+            day: 'Tuesday',
+            open: 13,
+            close: 22
+        },
+        {
+            day: 'Wednesday',
+            open: 13,
+            close: 22
+        },
+        {
+            day: 'Thursday',
+            open: 13,
+            close: 22
+        },
+        {
+            day: 'Friday',
+            open: 13,
+            close: 23
+        },
+        {
+            day: 'Saturday',
+            open: 9,
+            close: 23
+        }
+    ]
 });
 
 const mutations = {

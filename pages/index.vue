@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section class="">
     <navigation></navigation>
     <div class="title">
       Pop's Italian
@@ -18,9 +18,5 @@ export default {
 </script>
 
 <style>
-
-body, html{
-  max-height: 100vh
-}
 
 </style>

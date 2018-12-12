@@ -16,12 +16,12 @@
                 <router-link to="/menu" class="navbar-item">
                 Menu
                 </router-link>
-                <a class="navbar-item">
+                <router-link to="/hours" class="navbar-item">
                 Hours
-                </a>
-                <a class="navbar-item">
+                </router-link>
+                <router-link to="/directions" class="navbar-item">
                     Directions
-                </a>
+                </router-link>
             </div>
         </div>
     </nav>
@@ -49,10 +49,9 @@ export default {
         color: #000;
     }
 
-    .navbar{
-        max-width: 100vw;
-        margin-right: 20px;
-        margin-left: 5px;
+    .navbar {
+        max-width: 100%;
+        background: #fff;
     }
 </style>
 

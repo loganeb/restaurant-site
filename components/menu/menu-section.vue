@@ -1,6 +1,6 @@
 <template>
-    <div class="menu-section">
-        <h1 class="title">{{ title }}</h1>
+    <div class="menu-section container">
+        <h1 class="section-title">{{ title }}</h1>
         <div class="items">
             <menu-item 
             v-for="item in items" 
@@ -29,32 +29,35 @@ export default {
 </script>
 
 <style>
+.section-title{
+    font-size: 30px;
+}
 .menu-section{
-    margin-left: 35px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    max-width: 70vw;
+    height: 100%;
+}
+
+.items{
     word-wrap: normal;
     overflow-y: scroll;
     overflow-x: hidden;
-    max-height: 85vh;
+    max-height: 75vh;
     padding: 0;
     padding-right: 5px;
 }
 
-.menu-section::-webkit-scrollbar {
+.items::-webkit-scrollbar {
     width: 8px;
     height: 8px;
     background: none;
 }
 
-.menu-section::-webkit-scrollbar-thumb {
-    background: #666;
-    -webkit-border-radius: 2ex;
+.items::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.2);
 }
 
-
-.items{
-    margin: 0;
-
-}
 </style>
 
 

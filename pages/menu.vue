@@ -1,9 +1,9 @@
 <template>
-    <section class="menu container">
+    <section class="menu">
         <navigation/>
         <div class="menu-box columns is-mobile">
             <side-bar :sections="sectionNames" class="column is-one-fifth"></side-bar>
-            <menu-section :title="selection.name" :items="selection.items" class="column is-three-fifths"></menu-section>
+            <menu-section :title="selection.name" :items="selection.items" class="column "></menu-section>
         </div>
     </section>
 </template>
